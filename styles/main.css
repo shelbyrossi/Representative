@@ -1,47 +1,59 @@
 
-.blackburnbio {
-    text-align: center;
-}
+
 
 .bio_name {
+    
     font-size: 40px;
     text-align: center;
 }
 
+.bio_info {
+    text-align: center;
+}
 
 
-.bioC {
-    width: 250px;
-    margin: auto;
-    margin-bottom: 25px;
-    border: 3px solid black;
-    font-size: 13px;
+
+img {
     
-}
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+    height: 300px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    
+    
+    
+  }
 
-<style >
+  .leglist {
 
+    text-align: center; 
+    list-style-position: inside;
+
+  }
+
+
+  /* unvisited link */
 a:link {
-  color: goldenrod;
-  background-color: transparent;
-  text-decoration: none;
-}
+    color: goldenrod;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: goldenrod;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: goldenrod;
+  }
 
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: goldenrod;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>

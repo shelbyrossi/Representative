@@ -5,47 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+ 
     <link rel="stylesheet" href="styles/main.css">
-</head> 
 
+</head>
 <body>
-    <!--Parent Bio Component -->
-    <article class="blackburnbio">
-    
-    <!--Header-->
+
+    <main>
+
+    <article class="bio">
+
+    <!-- bio information-->
         <section class="bio_name">
-            <h1> Marsha Blackburn</h1>
+            <p><h1>Marsha Blackburn</h1></p>
+            
+           
         </section>
 
-    <!-- Photo Component-->
-        <div class= "image1">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Marsha_Blackburn%2C_official_photo%2C_116th_Congress.jpg" alt="Marsha Blackburn"
-            width="300" height="400">
+        <div class="photo">
+            <img src="data:image/jpeg;base64,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">
         </div>
-          
-    <!--Bio Component-->
+
         <section class="bio_info">
-            <h5>Senior Senator for Tennesee, Republican</h5>
-         </section>
 
-    <!--Serves-->
-        <div class="bioC"> 
-            <p>Senator Blackburn serves on the Senate Commerce, Science, and Transportation Committee 
-                that has broad  jurisdiction over interstate commerce, broadband and communications 
-                technology, manufacturing, trade, and tourism, as well as river, rail, highway,
-                 and civil aviation networks.
-        
-        </div>
-        
-    <!--Links-->
-        <section class="bio_links">
-            <a href="https://www.congress.gov/member/marsha-blackburn/B001243">Legislation</a>
-        </section>
-    
-    
+            <p><h3>Republican</h3></p>
+
+            <p> <em>In 2018, the people of Tennessee elected Marsha Blackburn as
+                 the first woman to represent the Volunteer State in the
+                  United States Senate.Before her election to the Senate, Marsha represented 
+                  Tennessee’s 7th Congressional District in the United States House of 
+                  Representatives, where she became a leader in the fight for a small, 
+                  efficient federal government that is accountable to its citizens.
+                
+                
+                </em>
+                 </p>
+       
+               
+                    <li>Armed Services Committee</li><br>
+                    <li>Judiciary Committee</li><br>
+                    <li>Data Security Subcommittee</li><br>
+             </section>
+
+
+    <!--legislation -->
+             <section class="leglist">
+                 <ol>
+                     <li><a href="https://www.congress.gov/bill/117th-congress/senate-bill/2878?s=1&r=1">legislation </a></li>
+                     <li><a href="https://www.congress.gov/bill/117th-congress/senate-bill/2866?s=1&r=2">legislation</a></li>
+                 </ol>
+             </section>
+
+
+
+
+
+
+
+
+
+
     </article>
-    
+
+    </main>
 </body>
 </html>
-
